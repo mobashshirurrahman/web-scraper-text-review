@@ -16,16 +16,20 @@ Make sure git is installed.
 
 #now move to project directory
 #and run following command:
-git init
+>git init
 #create .gitignore file and add file you dont want to upload
-git add .
-git commit -m "initial commit"
+>git add .
+
+>git commit -m "initial commit"
 
 Make sure heroku cli in installed
 (for testing purpose type in cmd ------>heroku)
 
 #now run following cmd:
 >heroku login
+
 >heroku create
+
 >git remote  -v
+
 >git push heroku master
