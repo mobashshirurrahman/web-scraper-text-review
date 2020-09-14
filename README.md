@@ -25,7 +25,7 @@ Make sure heroku cli in installed
 (for testing purpose type in cmd ------>heroku)
 
 #now run following cmd:
-heroku login
-heroku create
-git remote  -v
-git push heroku master
+>heroku login
+>heroku create
+>git remote  -v
+>git push heroku master
